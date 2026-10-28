@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>AI Prompt Manager</title>
+  <style>
+    body { width: 320px; padding: 12px; font-family: system-ui, sans-serif; }
+    input, textarea { width: 100%; margin: 4px 0; }
+    button { margin: 4px 2px; padding: 6px 12px; }
+    .pro { background: #f0f8ff; border: 1px solid #007bff; padding: 8px; margin: 8px 0; }
+  </style>
+</head>
+<body>
+  <h3>AI Prompt Manager</h3>
+  <input id="title" placeholder="Prompt title" />
+  <textarea id="prompt" rows="4" placeholder="Your prompt..."></textarea>
+  <button id="save">Save Prompt</button>
+  <button id="enhance" class="pro">AI Enhance (Pro)</button>
+  <ul id="list"></ul>
+  <p id="status"></p>
+  <script src="popup.js"></script>
+</body>
+</html>
